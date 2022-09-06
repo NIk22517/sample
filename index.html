@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.css" integrity="sha512-+VDbDxc9zesADd49pfvz7CgsOl2xREI/7gnzcdyA9XjuTxLXrdpuz21VVIqc5HPfZji2CypSbxx1lgD7BgBK5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+<body>
+
+
+
+    <main class="page">
+       
+        <h2>Upload ,Crop and save.</h2>
+        
+        <div class="box">
+          <input type="file" id="file-input" />
+        </div>
+        <!-- leftbox -->
+        <div class="box-2">
+          <div class="result"></div>
+        </div>
+        <!--rightbox-->
+        <div class="box-2 img-result hide">
+          <!-- result of crop -->
+          <img class="cropped" src="" alt="" />
+        </div>
+        <!-- input file -->
+        <div class="box">
+          <div class="options hide">
+            <label> Width</label>
+            <input type="number" class="img-w" value="300" min="100" max="1200" />
+          </div>
+          <!-- save btn -->
+          <button class="btn save hide">Save</button>
+  
+        </div>
+       
+      </main>
+  
+
+
+
+    <script src="./app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js" integrity="sha512-ooSWpxJsiXe6t4+PPjCgYmVfr1NS5QXJACcR/FPpsdm6kqG1FmQ2SVyg2RXeVuCRBLr0lWHnWJP6Zs1Efvxzww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
